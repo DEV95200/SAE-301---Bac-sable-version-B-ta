@@ -606,7 +606,7 @@ class MapManager {
             // Ajouter le cercle de rayon
             this.radiusCircle = L.circle([userPosition.latitude, userPosition.longitude], {
                 radius: radius * 1000, // Convertir en mètres
-                fillColor: '#d4af37',
+                fillColor: '#e5b414ff',
                 color: '#d4af37',
                 weight: 2,
                 opacity: 0.6,
